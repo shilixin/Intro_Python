@@ -1,4 +1,8 @@
--m pip
+python3 -m pip uninstall pip setuptools wheel
+sudo apt-get --reinstall install  python3-setuptools python3-wheel python3-pip
+
+python -m pip uninstall pip setuptools wheel
+sudo apt-get --reinstall install python-setuptools python-wheel python-pip 
 numpy==1.16.*
 matplotlib==3.*
 seaborn==0.8.1
